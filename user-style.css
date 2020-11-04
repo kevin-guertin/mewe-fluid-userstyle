@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://mewe.com/myworld"), url-prefix("https://mewe.com/groups") {
+@-moz-document url-prefix("https://mewe.com/myworld"), url-prefix("https://mewe.com/groups"), url-prefix("https://mewe.com/chat"), url-prefix("https://mewe.com/pages"), url-prefix("https://mewe.com/events") {
     .c-app-route #content-wrapper {
         display: unset;
     }

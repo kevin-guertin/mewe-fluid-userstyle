@@ -3,7 +3,7 @@
 
 _A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window._
 
-## [📦 UserCSS file ![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/kevin-guertin/mewe-fluid/master/mewe-fluid.user.css)
+## [📦 UserCSS file ![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/kevin-guertin/mewe-fluid-userstyle/master/mewe-fluid.user.css)
 
 # Installation
 

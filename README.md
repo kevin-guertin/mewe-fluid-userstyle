@@ -1,23 +1,26 @@
 
-# MeWe Fluid Auto Multi-Column Layout
+# MeWe++ Fluid Auto Multi-Column Layout
 
-A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. Use with the Stylus extension in your browser.
+_A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window._
 
-This style is hosted at userstyles.org, but that site has long been rendered useless with its lack of development and maintenance. It's excessively slow, times out all the time, and it's been like that for years. This will be its official home for whenever that site just drops dead.
+## [📦 UserCSS file ![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/kevin-guertin/mewe-fluid/master/mewe-fluid.user.css)
 
 # Installation
 
-You'll need to install the browser extension and then install the theme from UserStyles.org. You can also manually import the style in your extension.
+A Userstyle extension is required, I recommend using **_Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)_**.
 
-## Get the 'Stylus' Browser Extension
+Then, click on the "📦 UserCSS file" link on the top, then click "Install style" on the left. I highly recommend enabling checking for updates.
 
-- [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-- [Firefox](https://addons.mozilla.org/firefox/addon/styl-us/)
-  
+Refresh any MeWe tabs.
+
 ## Install This Theme at UserStyles.org
 
-https://userstyles.org/styles/181495/
+This Userstyle is available on userstyles org [here](https://userstyles.org/styles/181495/), but I highly recommend you to use the UserCSS version here instead.
 
 # Pull Requests Are Welcomed
 
 Want to improve this User Style? I'll gladly accept Pull Requests.
+
+## License
+
+This software is licensed under MIT; a copy can be found under [LICENSE](LICENSE).

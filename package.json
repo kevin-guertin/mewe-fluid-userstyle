@@ -1,0 +1,19 @@
+{
+  "name": "mewe-fluid-userstyle",
+  "version": "1.0.1",
+  "description": "A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. Use with the Stylus extension in your browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-guertin/mewe-fluid-userstyle.git"
+  },
+  "author": "kevin-guertin (https://kevin-guertin.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin-guertin/mewe-fluid-userstyle/issues"
+  },
+  "homepage": "https://github.com/kevin-guertin/mewe-fluid-userstyle#readme"
+}

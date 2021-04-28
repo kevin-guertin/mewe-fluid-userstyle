@@ -1,5 +1,5 @@
 
-# MeWe++ Fluid Auto Multi-Column Layout
+# MeWe++ Fluid Multi-Column Layout
 
 _A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window._
 

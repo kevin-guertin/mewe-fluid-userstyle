@@ -6,7 +6,7 @@ _A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multi
 
 ## Installation
 
-A Userstyle extension is required, I recommend using **_Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)_**.
+A Userstyle extension is required. I highly recommend using **_Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)_**.
 
 Then, click on the "📦 UserCSS file" link above, then click "Install style" on the left. I highly recommend enabling checking for updates.
 
@@ -18,11 +18,9 @@ This Userstyle is available on userstyles org [here](https://userstyles.org/styl
 
 ## Issues
 
+### Not working anymore or something is broken?
+
 Report any issues [here](https://github.com/kevin-guertin/mewe-fluid-userstyle/issues).
-
-## Pull Requests Are Welcomed
-
-Want to improve this User Style? I'll gladly accept Pull Requests.
 
 ## License
 

@@ -25,7 +25,7 @@
     .c-feed-simple {
         display: grid !important;
         grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-        grid-gap: 1rem;
+        grid-gap: 1.5rem;
         max-width: none;
         justify-items: stretch;
         align-items: stretch;
@@ -42,7 +42,7 @@
     }
 
     .c-mw-postbox-placeholder {
-        width: 40%;
+        width: 33%;
         min-width: 550px;
         max-width: none;     
         margin: 0 auto 2.5rem auto;
@@ -76,7 +76,10 @@
 /* Full-width header*/
     .mewe-app-header .mewe-app-header_inner {
         max-width: 100%;
-        padding: 0 1.5em;
+        padding: 0 1.5em 0 0;
+    }
+    .mewe-app-header .mewe-app-header_logo {        
+        margin: 0 auto 0 2rem;
     }
 }
 
@@ -86,9 +89,9 @@
         display: none !important;
         visibility: hidden !important;
     }
-    .header_nav_item {
-        padding-right: .5em;
-        padding-left: .5em;
+    .mewe-app-header .mewe-app-header_inner .header_nav_item {
+        min-width: 60px;
+        padding: 0 .5em 0 .5em;        
     }
 }
 

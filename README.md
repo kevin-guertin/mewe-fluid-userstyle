@@ -16,7 +16,7 @@ Refresh any MeWe tabs if the style isn't showing immediately.
 
 ### Install This Theme at UserStyles.org or UserStyles.world
 
-This Userstyle is available on userstyles org [here](https://userstyles.org/styles/181495/) on on UserStyles.world [here](https://userstyles.world/style/982/mewe-fluid-auto-multi-columns), but I highly recommend you use the UserCSS version here instead.
+This Userstyle is available on **UserStyles.org** [here](https://userstyles.org/styles/181495/) or on **UserStyles.world** [here](https://userstyles.world/style/982/mewe-fluid-auto-multi-columns), but I highly recommend you use the UserCSS version here instead.
 
 ## Issues
 

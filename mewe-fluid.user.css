@@ -79,7 +79,11 @@
         padding: 0 1.5em 0 0;
     }
     .mewe-app-header .mewe-app-header_logo {        
-        margin: 0 auto 0 2rem;
+        order: -1;
+        margin: 0 2rem 0 1.5rem;
+    }
+    .mewe-app-header_tabs {
+        margin-right: auto;
     }
 }
 

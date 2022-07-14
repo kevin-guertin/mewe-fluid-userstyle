@@ -1,6 +1,6 @@
 {
   "name": "mewe-fluid-userstyle",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. Use with the Stylus extension in your browser.",
   "main": "index.js",
   "scripts": {

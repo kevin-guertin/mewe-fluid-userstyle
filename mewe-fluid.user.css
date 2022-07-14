@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name         MeWe++ Fluid Auto Multi Columns
 @namespace    https://kevin-guertin.github.io
-@version      1.2.3
+@version      1.3.0
 @description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can.
 @author       kevin-guertin (https://kevin-guertin.github.io)
 @homepageURL  https://github.com/kevin-guertin/mewe-fluid-userstyle
@@ -24,7 +24,7 @@
 
     .c-feed-simple {
         display: grid !important;
-        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
         grid-gap: 1.5rem;
         max-width: none;
         justify-items: stretch;
@@ -52,13 +52,14 @@
         max-width: none;
     }
 
-    .feed-filter-dropdown {
-        padding: 0 1em 0 0;
-        justify-content: flex-end !important;
-        max-width: none !important;
-        margin-left: -2.5rem;
-        margin-top: -2.5rem;
-        font-size: 1em !important;
+    .feed-filters {
+        padding: 0 1em 1em 0;
+        justify-content: center !important;
+        margin-top: -1rem;
+    }
+    
+    .feed-filters+.blue-info-box {
+        display: none !important;
     }
 
     .mw-box .mw-box_header {
@@ -121,4 +122,10 @@
         display: none;
         visibility: hidden;
     }
+}
+
+@-moz-document regexp("https://mewe\\.com/myworld\\?scope=discover"){
+    .feed-filters+.blue-info-box {
+        display: flex !important;    
+    }    
 }

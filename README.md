@@ -1,6 +1,8 @@
 # MeWe++ Fluid Multi-Column Layout
 
-_A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window._
+_A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. It also reduces the roundness and spacing of many elements in the newer version of MeWe. It also increases text size of comments._
+
+A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can. It also reduces rounded corners, spacing, and increases comment text size.
 
 ![Preview Screenshot](https://github.com/kevin-guertin/mewe-fluid-userstyle/raw/master/images/preview.png)
 

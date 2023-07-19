@@ -2,7 +2,7 @@
 @name         MeWe++ Fluid Auto Multi Columns
 @namespace    https://kevin-guertin.github.io
 @version      2.0.0
-@description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can.
+@description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can. It also reduces rounded corners, spacing, and increases comment text size.
 @author       kevin-guertin (https://kevin-guertin.github.io)
 @homepageURL  https://github.com/kevin-guertin/mewe-fluid-userstyle
 @supportURL   https://github.com/kevin-guertin/mewe-fluid-userstyle/issues
@@ -53,9 +53,6 @@ url-prefix("https://mewe.com/mycloud") {
         border-radius: .5rem;
     }
 
-    .c-mw-postbox {
-        max-width: none;
-    }
 
     .c-mw-post {
         align-self: start
@@ -81,7 +78,7 @@ url-prefix("https://mewe.com/mycloud") {
     .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner {
         height: 4rem;
     }
-    
+
     .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner .mewe-app-header_search .search-input_wrapper .h-input_search {
         height: 2.5rem;
     }
@@ -91,9 +88,10 @@ url-prefix("https://mewe.com/mycloud") {
         height: 10px !important;
     }
 }
-    
+
 @-moz-document domain("mewe.com") {
-    /* Stream filters */
+
+    /* Feed filters */
     .h-nav-simple,
     .h-nav-simple+.items-center {
         justify-content: center;
@@ -106,7 +104,18 @@ url-prefix("https://mewe.com/mycloud") {
 }
 
 @-moz-document domain("mewe.com") {
+
     /* Posts */
+    .c-mw-postbox {
+        max-width: none;
+        border-radius: .5rem;
+    }
+
+    .dialog_inner,
+    .dialog_header {
+        border-radius: .5rem;
+    }
+
     .mw-box {
         padding: 1rem 2rem;
         border-radius: 0.5rem;
@@ -133,10 +142,22 @@ url-prefix("https://mewe.com/mycloud") {
     .postbar_header {
         order: 1;
     }
-    
+
     .c-mw-comment .comment_text {
         font-size: 0.87rem;
         line-height: 1.35rem;
+    }
+}
+
+@-moz-document domain("mewe.com") {
+
+    /* Chat */
+    .c-mw-chat-window {
+        border-radius: 0.5rem;
+    }
+
+    .c-mw-chat .chat_titlebar {
+        border-radius: 0.5rem 0.5rem 0 0;
     }
 }
 
@@ -148,7 +169,6 @@ url-prefix("https://mewe.com/mycloud") {
         visibility: hidden !important;
     }
 }
-
 
 @-moz-document url-prefix("https://mewe.com/myworld"),
 url-prefix("https://mewe.com/groups") {

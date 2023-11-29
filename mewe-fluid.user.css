@@ -63,6 +63,11 @@ url-prefix("https://mewe.com/mycloud") {
     .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner {
         max-width: none;
         padding: 0 1.5em 0 0;
+        height: 4rem;
+    }
+
+    .mewe-app-header_top.items-center.w-100.border-1-b>div>div.h-size-600.mx-40 {
+        max-width: 600px;
     }
 
     .c-mw-app-main-header .mewe-app-header_bottom {
@@ -71,10 +76,6 @@ url-prefix("https://mewe.com/mycloud") {
 
     .mewe-app-header .mewe-app-header_logo {
         margin: 0 0 0 1.5rem;
-    }
-
-    .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner {
-        height: 4rem;
     }
 
     .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner .mewe-app-header_search .search-input_wrapper .h-input_search {

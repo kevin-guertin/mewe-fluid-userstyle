@@ -27,7 +27,7 @@ url-prefix("https://mewe.com/mycloud") {
 
     .c-feed-simple {
         display: grid !important;
-        grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
         grid-gap: 1.5rem;
         max-width: none;
         justify-items: stretch;
@@ -41,7 +41,7 @@ url-prefix("https://mewe.com/mycloud") {
     }
 
     .c-app-route {
-        min-width: 440px;
+        min-width: 425px;
     }
 
     .c-mw-postbox-placeholder {

@@ -78,8 +78,17 @@ url-prefix("https://mewe.com/mycloud") {
         margin: 0 0 0 1.5rem;
     }
 
-    .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner .mewe-app-header_search .search-input_wrapper .h-input_search {
+
+    .c-mw-smart-search .smart-search-form .search-input_wrapper .h-input_search {
         height: 2.5rem;
+    }
+
+    .c-mw-smart-search .smart-search-dialog {
+        top: 4rem;
+    }
+
+    .c-mw-smart-search .smart-search-dialog .dialog_inner-wrapper:before {
+        top: 4rem;
     }
 
     .icn_search {

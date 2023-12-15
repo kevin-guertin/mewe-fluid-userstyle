@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         MeWe++ Fluid Auto Multi Columns
 @namespace    https://kevin-guertin.github.io
-@version      2.0.3
+@version      2.0.4
 @description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can. It also reduces rounded corners, spacing, and increases comment text size.
 @author       kevin-guertin (https://kevin-guertin.github.io)
 @homepageURL  https://github.com/kevin-guertin/mewe-fluid-userstyle
@@ -62,7 +62,7 @@ url-prefix("https://mewe.com/mycloud") {
     /* Full-width header*/
     .c-mw-app-main-header .mewe-app-header_top .mewe-app-header_top_inner {
         max-width: none;
-        padding: 0 1.5em 0 0;
+        padding: 0 1.5rem 0 0;
         height: 4rem;
     }
 
@@ -95,6 +95,15 @@ url-prefix("https://mewe.com/mycloud") {
         width: 10px !important;
         height: 10px !important;
     }
+
+    .postbar_header.pt-8 {
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    .emojis-list {
+        background-color: unset !important;
+        overflow: hidden !important;
+    }
 }
 
 @-moz-document domain("mewe.com") {
@@ -116,21 +125,21 @@ url-prefix("https://mewe.com/mycloud") {
     /* Posts */
     .c-mw-postbox {
         max-width: none;
-        border-radius: .5rem;
+        border-radius: .75rem;
     }
 
     .dialog_inner,
     .dialog_header {
-        border-radius: .5rem;
+        border-radius: .75rem;
     }
 
     .mw-box {
         padding: 1rem 2rem;
-        border-radius: 0.5rem;
+        border-radius: 0.75rem;
     }
 
     .c-mw-post {
-        border-radius: 0.5rem;
+        border-radius: 0.75rem;
     }
 
     .c-mw-postbar.postbar {
@@ -144,11 +153,11 @@ url-prefix("https://mewe.com/mycloud") {
 
     /* Chat */
     .c-mw-chat-window {
-        border-radius: 0.5rem;
+        border-radius: 0.75rem;
     }
 
     .c-mw-chat .chat_titlebar {
-        border-radius: 0.5rem 0.5rem 0 0;
+        border-radius: 0.75rem 0.75rem 0 0;
     }
 }
 

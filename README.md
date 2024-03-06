@@ -1,6 +1,6 @@
 # MeWe++ Fluid Multi-Column Layout
 
-_A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. It also reduces the roundness and spacing of many elements in the newer version of MeWe. It also increases text size of comments._
+_A Userstyle for MeWe.com to hide the sidebars and make posts fluidly use multiple columns instead of just one column and use the full width of your window. It also reduces the roundness and spacing of many elements in the newer version of MeWe._
 
 ![Preview Screenshot](https://github.com/kevin-guertin/mewe-fluid-userstyle/raw/master/images/preview.png)
 
@@ -10,7 +10,7 @@ _A Userstyle for MeWe.com to hide the side bars and make posts fluidly use multi
 
 A Userstyle extension is required. I highly recommend using **_Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)_**.
 
-Then, click on the "📦 UserCSS file" link above, then click "Install style" on the left. I highly recommend enabling checking for updates.
+Then, after installing Stylus, click on the "📦 UserCSS file" link above, and when a new window appears, click "Install style" on the left. I highly recommend enabling checking for updates.
 
 Refresh any MeWe tabs if the style isn't showing immediately.
 

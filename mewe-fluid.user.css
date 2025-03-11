@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         MeWe++ Fluid Auto Multi Columns
 @namespace    https://kevin-guertin.github.io
-@version      2.0.5
+@version      2.0.6
 @description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can. It also reduces rounded corners, spacing, and increases comment text size.
 @author       kevin-guertin (https://kevin-guertin.github.io)
 @homepageURL  https://github.com/kevin-guertin/mewe-fluid-userstyle
@@ -66,15 +66,14 @@ url-prefix("https://mewe.com/mycloud") {
 @-moz-document domain("mewe.com") {
 
     /* Feed filters */
-    .h-nav-simple,
-    .h-nav-simple+.items-center {
+    .c-mw-feed-filter .c-mw-nav-simple nav {
         justify-content: center;
     }
 
-    .h-nav-simple+.items-center {
-        width: 100%;
-        margin-top: .75rem;
+    .c-mw-feed-filter>div {
+        justify-content: center;
     }
+
 }
 
 @-moz-document domain("mewe.com") {

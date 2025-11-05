@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         MeWe++ Fluid Auto Multi Columns
 @namespace    https://kevin-guertin.github.io
-@version      2.0.6
+@version      2.1.0
 @description  A Userstyle for Mewe to make your stream use the full width of your window and include as many columns of posts as it can. It also reduces rounded corners, spacing, and increases comment text size.
 @author       kevin-guertin (https://kevin-guertin.github.io)
 @homepageURL  https://github.com/kevin-guertin/mewe-fluid-userstyle
@@ -13,19 +13,47 @@
 @-moz-document url-prefix("https://mewe.com/myworld"),
 url-prefix("https://mewe.com/groups"),
 url-prefix("https://mewe.com/pages"),
-url-prefix("https://mewe.com/mycloud") {
+url-prefix("https://mewe.com/mycloud"),
+url-prefix("https://mewe.com/chat"),
+url-prefix("https://mewe.com/store") {
     .mewe-app-wrapper {
         max-width: none;
     }
 
-    .h-size-600 {
+    .radius-main {
+        border-radius: 0px;
+    }
+
+    .BodyL-Medium {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .tunnel {
+        display: none;
+    }
+
+    .c-new-navigation .c-mw-smart-search {
+        margin: 0;
+
+    }
+
+    .dropdown_inner {
+        border-radius: 1rem;
+    }
+
+    .c-new-navigation .nav_wrapper {
+        max-width: none;
+    }
+
+    .mewe-app-content>.h-size-full {
         max-width: none;
         flex: none;
     }
 
     .c-feed-simple {
         display: grid !important;
-        grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         grid-gap: 1.5rem;
         max-width: none;
         justify-items: stretch;
@@ -47,7 +75,6 @@ url-prefix("https://mewe.com/mycloud") {
         min-width: 550px;
         max-width: none;
         margin: 0 auto 2.5rem auto;
-        border-radius: .5rem;
     }
 
     .c-mw-post {
@@ -81,12 +108,6 @@ url-prefix("https://mewe.com/mycloud") {
     /* Posts */
     .c-mw-postbox {
         max-width: none;
-        border-radius: .75rem;
-    }
-
-    .dialog_inner,
-    .dialog_header {
-        border-radius: .75rem;
     }
 
     .mw-box {
@@ -118,18 +139,6 @@ url-prefix("https://mewe.com/mycloud") {
 
 @-moz-document domain("mewe.com") {
 
-    /* Hide header tab names */
-    .c-mw-app-main-header .header_nav_link svg {
-        padding-top: 0;
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    @media screen and (max-width: 1023px) {
-        .c-mw-app-main-header .mewe-app-header_content .header_nav_item svg {
-            padding-top: 0;
-        }
-    }
 
     .header_nav_link_name {
         display: none !important;
@@ -137,8 +146,7 @@ url-prefix("https://mewe.com/mycloud") {
     }
 }
 
-@-moz-document url-prefix("https://mewe.com/myworld"),
-url-prefix("https://mewe.com/groups") {
+@-moz-document url-prefix("https://mewe.com/myworld") {
 
     /* Hide left sidebar */
     .h-sidebar-left {
